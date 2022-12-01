@@ -1,9 +1,9 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
+name: Logan Bennett
+avatar: /static/images/old-man.png
+occupation: Student of Neuroscience | Research Wannabe
+company: Temple University
+email: bennett.j.logan@gmail.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
 github: https://github.com
