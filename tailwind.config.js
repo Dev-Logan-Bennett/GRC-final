@@ -14,6 +14,9 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
+    screens: {
+      phone: '480px',
+    },
     extend: {
       spacing: {
         '9/16': '56.25%',

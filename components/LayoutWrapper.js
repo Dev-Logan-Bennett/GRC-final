@@ -1,6 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/greek.jpg'
+import Logo from '@/data/greek.png'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
@@ -19,13 +19,16 @@ const LayoutWrapper = ({ children }) => {
                 <div className="mr-3">
                   <Image
                     src={Logo}
-                    className="object-cover object-center md:h-36 lg:h-48"
-                    width={400}
-                    height={306}
+                    className="object-cover object-center"
+                    width={160}
+                    height={160}
                   />
                 </div>
+                <div>
+                  <h1 className="sm:block h-full w-full text-4xl font-semibold">Classics Blog</h1>
+                </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="ml-4 hidden h-full w-full text-4xl font-semibold sm:block">
+                  <div className="sm:block ml-4 hidden h-full w-full text-4xl font-semibold">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
@@ -35,12 +38,12 @@ const LayoutWrapper = ({ children }) => {
             </Link>
           </div>
           <div className="flex items-center text-base leading-5">
-            <div className="hidden sm:block">
+            <div className="sm:block hidden">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+                  className="sm:p-4 p-1 font-medium text-gray-900 dark:text-gray-100"
                 >
                   {link.title}
                 </Link>
