@@ -1,8 +1,8 @@
 const siteMetadata = {
   title: 'GRC 0804 Final Project',
-  author: 'Logan J. Bennett',
-  headerTitle: 'Classics Blog',
-  description: "A blog created for Dr. Traweek's GRC 0804 Final Project",
+  author: 'Logan Bennett',
+  headerTitle: 'Race in the Ancient Mediterranean',
+  description: "A blog created by Logan Bennett for Dr. Traweek's GRC 0804 Final Project",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -10,12 +10,12 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
+  email: 'tuk00093@temple.edu',
+  github: 'https://github.com/Dev-Logan-Bennett',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/loganjbennett/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
